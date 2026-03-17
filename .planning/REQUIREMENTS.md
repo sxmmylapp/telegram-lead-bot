@@ -11,7 +11,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **INFRA-01**: System validates all config (API keys, session string, group IDs, schedule, active hours) at startup via Zod and fails fast with clear errors
 - [x] **INFRA-02**: System logs all events (incoming messages, AI calls, sent replies, rate limit hits, errors) as structured JSON via Pino to stdout
-- [ ] **INFRA-03**: System runs as a single long-running process on Railway 24/7
+- [x] **INFRA-03**: System runs as a single long-running process on Railway 24/7
 
 ### Group Posting
 
@@ -24,7 +24,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### DM Monitoring
 
 - [ ] **DM-01**: System monitors incoming private messages to Sammy's personal Telegram account via GramJS (MTProto user API)
-- [ ] **DM-02**: System uses persistent StringSession stored as Railway env var — no repeated logins across restarts
+- [x] **DM-02**: System uses persistent StringSession stored as Railway env var — no repeated logins across restarts
 - [ ] **DM-03**: System implements connection health checks (periodic getMe() calls) and automatic reconnection on failure
 
 ### AI Responses
@@ -92,8 +92,8 @@ Deferred to future release. Tracked but not in current roadmap.
 |-------------|-------|--------|
 | INFRA-01 | Phase 1 | Complete |
 | INFRA-02 | Phase 1 | Complete |
-| INFRA-03 | Phase 1 | Pending |
-| DM-02 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Complete |
+| DM-02 | Phase 1 | Complete |
 | DM-01 | Phase 2 | Pending |
 | DM-03 | Phase 2 | Pending |
 | AI-01 | Phase 2 | Pending |
