@@ -9,8 +9,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: System validates all config (API keys, session string, group IDs, schedule, active hours) at startup via Zod and fails fast with clear errors
-- [ ] **INFRA-02**: System logs all events (incoming messages, AI calls, sent replies, rate limit hits, errors) as structured JSON via Pino to stdout
+- [x] **INFRA-01**: System validates all config (API keys, session string, group IDs, schedule, active hours) at startup via Zod and fails fast with clear errors
+- [x] **INFRA-02**: System logs all events (incoming messages, AI calls, sent replies, rate limit hits, errors) as structured JSON via Pino to stdout
 - [ ] **INFRA-03**: System runs as a single long-running process on Railway 24/7
 
 ### Group Posting
@@ -90,8 +90,8 @@ Deferred to future release. Tracked but not in current roadmap.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFRA-01 | Phase 1 | Pending |
-| INFRA-02 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
+| INFRA-02 | Phase 1 | Complete |
 | INFRA-03 | Phase 1 | Pending |
 | DM-02 | Phase 1 | Pending |
 | DM-01 | Phase 2 | Pending |
