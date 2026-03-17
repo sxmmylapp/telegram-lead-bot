@@ -28,11 +28,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Every event (startup, config loaded, connection established, errors) is logged as structured JSON to stdout with timestamp, level, and module name
   3. GramJS client connects using a StringSession from a Railway env var and maintains the session across Railway redeploys without requiring re-authentication
   4. Process stays running 24/7 on Railway as a single long-running service
-**Plans**: TBD
+**Plans:** 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Project scaffolding, Zod config validation, Pino structured logging
+- [ ] 01-02-PLAN.md -- GramJS client with StringSession, entry point, session script, Railway deployment
 
 ### Phase 2: DM Reply Engine
 **Goal**: Leads who DM Sammy get intelligent, human-feeling Claude-powered replies that steer toward booking a discovery call -- with all anti-detection measures active from the first message
